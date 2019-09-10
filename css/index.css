@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-26 14:57:08
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-10 18:38:52
+* @Last Modified time: 2019-09-10 18:46:52
 */
 *{
 	margin: 0px;
@@ -396,7 +396,7 @@ a:hover{
 	}
 
 	#list_box{
-		padding-bottom: 30px;
+		margin-bottom: 50px;
 	}
 
 
@@ -973,7 +973,7 @@ a:hover{
 	}
 
 	#list_box{
-		padding-bottom: 30px;
+		margin-bottom: 50px;
 	}
 
 	.creative_furniture{
@@ -1715,7 +1715,7 @@ a:hover{
 
 
 	#list_box{
-		padding-bottom: 30px;
+		margin-bottom: 50px;
 	}
 
 
