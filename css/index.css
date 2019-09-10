@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-26 14:57:08
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-02 18:45:48
+* @Last Modified time: 2019-09-10 18:38:52
 */
 *{
 	margin: 0px;
@@ -393,6 +393,10 @@ a:hover{
 		border-top: 1px solid #cccccc;
 		margin: 0px auto;
 		padding-top: 20px;
+	}
+
+	#list_box{
+		padding-bottom: 30px;
 	}
 
 
@@ -968,6 +972,9 @@ a:hover{
 		padding-top: 20px;
 	}
 
+	#list_box{
+		padding-bottom: 30px;
+	}
 
 	.creative_furniture{
 		text-align: center;
@@ -1704,6 +1711,11 @@ a:hover{
 		border-top: 1px solid #cccccc;
 		margin: 0px auto;
 		padding-top: 20px;
+	}
+
+
+	#list_box{
+		padding-bottom: 30px;
 	}
 
 
