@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-26 14:57:08
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-10 18:46:52
+* @Last Modified time: 2019-09-10 19:12:48
 */
 *{
 	margin: 0px;
@@ -1735,7 +1735,7 @@ a:hover{
 		transform: scale(1.1);
 	}
 	.creative_furniture dt{
-		font-size: 1.5em;
+		font-size: 1.0em;
 		padding-top: 15px;
 		padding-bottom: 20px;
 	}
@@ -1757,7 +1757,7 @@ a:hover{
 		transform: scale(1.1);
 	}
 	.daily_use dt{
-		font-size: 1.5em;
+		font-size: 1.0em;
 		padding-top: 15px;
 		padding-bottom: 20px;
 	}
@@ -1778,7 +1778,7 @@ a:hover{
 		transform: scale(1.1);
 	}
 	.healthy_beauty dt{
-		font-size: 1.5em;
+		font-size: 1.0em;
 		padding-top: 15px;
 		padding-bottom: 20px;
 	}
@@ -1800,7 +1800,7 @@ a:hover{
 		transform: scale(1.1);
 	}
 	.fashion_design dt{
-		font-size: 1.5em;
+		font-size: 1.0em;
 		padding-top: 15px;
 		padding-bottom: 20px;
 	}
@@ -1821,7 +1821,7 @@ a:hover{
 		transform: scale(1.1);
 	}
 	.digital_parts dt{
-		font-size: 1.5em;
+		font-size: 1.0em;
 		padding-top: 15px;
 		padding-bottom: 20px;
 	}
@@ -1843,7 +1843,7 @@ a:hover{
 		transform: scale(1.1);
 	}
 	.food dt{
-		font-size: 1.5em;
+		font-size: 1.0em;
 		padding-top: 15px;
 		padding-bottom: 20px;
 	}
@@ -1865,7 +1865,7 @@ a:hover{
 		transform: scale(1.1);
 	}
 	.IP dt{
-		font-size: 1.5em;
+		font-size: 1.0em;
 		padding-top: 15px;
 		padding-bottom: 20px;
 	}
