@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-26 14:57:08
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-10 19:12:48
+* @Last Modified time: 2019-09-11 19:57:28
 */
 *{
 	margin: 0px;
@@ -1717,7 +1717,9 @@ a:hover{
 	#list_box{
 		margin-bottom: 50px;
 	}
-
+	#list_box dd{
+		font-size: 0.9em;
+	}
 
 	.creative_furniture{
 		text-align: center;
