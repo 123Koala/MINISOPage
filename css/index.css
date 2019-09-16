@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-26 14:57:08
 * @Last Modified by:   hp
-* @Last Modified time: 2019-09-11 19:57:28
+* @Last Modified time: 2019-09-16 08:49:27
 */
 *{
 	margin: 0px;
@@ -1716,6 +1716,7 @@ a:hover{
 
 	#list_box{
 		margin-bottom: 50px;
+		height: 218px;
 	}
 	#list_box dd{
 		font-size: 0.9em;
