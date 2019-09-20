@@ -1,8 +1,8 @@
 /*
 * @Author: hp
 * @Date:   2019-08-26 14:57:17
-* @Last Modified by:   hp
-* @Last Modified time: 2019-09-02 17:12:56
+* @Last Modified by:   wqh
+* @Last Modified time: 2019-09-19 22:48:51
 */
 $(function(){
 
@@ -45,12 +45,19 @@ $(function(){
 	});
 
 	// 头部搜索
-	$('.close_btn').click(function(){
-		$('.search_btn_wrap').css('display','none');
-	})
 	$('.header_right .search').children('input').click(function(event) {
 		/* Act on the event */
 		$('.search_btn_wrap').css('display','block');
+	});
+	$('.close_btn').click(function(){
+		$('.search_btn_wrap').css('display','none');
+	})
+	$('.close_btn').hover(function() {
+		$(this).children('img').addClass('closego');
+		$(this).children('img').attr('src', 'images/x-red.png');
+	}, function() {
+		$(this).children('img').removeClass('closego');
+		$(this).children('img').attr('src', 'images/x.png');
 	});
 
 	// 小屏搜索
@@ -58,6 +65,7 @@ $(function(){
 		/* Act on the event */
 		$('.search_btn_wrap').css('display','block');
 	});
+	
 
 	// 小屏导航
 	$('.cont_back').children('ul').children('li').hover(function() {
@@ -95,6 +103,13 @@ $(function(){
 		$('.header_right_bottom').children('ul').children('li').eq(0).addClass('hover_dec_li');
 		$('.header_right_bottom').children('ul').children('li').eq(0).children('a').addClass('hover_dec');
 	});
+
+	// 品牌简介
+	$('.txtbox').hover(function(){
+		$(this).addClass('part-txt')
+	},function(){
+		$(this).removeClass('part-txt')
+	})
 
 
 	// learnmore链接

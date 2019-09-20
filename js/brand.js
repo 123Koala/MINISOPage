@@ -1,8 +1,8 @@
 /*
 * @Author: hp
 * @Date:   2019-08-30 10:34:30
-* @Last Modified by:   hp
-* @Last Modified time: 2019-09-02 19:56:53
+* @Last Modified by:   wqh
+* @Last Modified time: 2019-09-19 22:54:04
 */
 $(function(){
 
@@ -47,13 +47,21 @@ $(function(){
 	});
 
 	// 头部搜索
-	$('.close_btn').click(function(){
-		$('.search_btn_wrap').css('display','none');
-	})
 	$('.header_right .search').children('input').click(function(event) {
 		/* Act on the event */
 		$('.search_btn_wrap').css('display','block');
 	});
+	$('.close_btn').click(function(){
+		$('.search_btn_wrap').css('display','none');
+	})
+	$('.close_btn').hover(function() {
+		$(this).children('img').addClass('closego');
+		$(this).children('img').attr('src', '../images/x-red.png');
+	}, function() {
+		$(this).children('img').removeClass('closego');
+		$(this).children('img').attr('src', '../images/x.png');
+	});
+	
 
 	// 小屏搜索
 	$('.sear_btn').click(function(event) {

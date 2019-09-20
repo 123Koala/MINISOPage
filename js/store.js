@@ -1,8 +1,8 @@
 /*
 * @Author: wqh
 * @Date:   2019-08-31 21:55:09
-* @Last Modified by:   hp
-* @Last Modified time: 2019-09-02 19:57:01
+* @Last Modified by:   wqh
+* @Last Modified time: 2019-09-19 23:14:03
 */
 /*
 * @Author: hp
@@ -62,13 +62,21 @@ $(function(){
 	});
 
 	// 头部搜索
-	$('.close_btn').click(function(){
-		$('.search_btn_wrap').css('display','none');
-	})
 	$('.header_right .search').children('input').click(function(event) {
 		/* Act on the event */
 		$('.search_btn_wrap').css('display','block');
 	});
+	$('.close_btn').click(function(){
+		$('.search_btn_wrap').css('display','none');
+	});
+	$('.close_btn').hover(function() {
+		$(this).children('img').addClass('closego');
+		$(this).children('img').attr('src', '../images/x-red.png');
+	}, function() {
+		$(this).children('img').removeClass('closego');
+		$(this).children('img').attr('src', '../images/x.png');
+	});
+	
 
 	// 小屏搜索
 	$('.sear_btn').click(function(event) {
@@ -153,6 +161,11 @@ $(function(){
 		$('.video_img').css('display', 'none');
 		$('.video').css('display', 'block');
 		$('.video')[0].play();
+	});
+	$('.play_btn').hover(function() {
+		$(this).css('opacity', '1');
+	}, function() {
+		$(this).css('opacity', '0.8');
 	});
 
 })

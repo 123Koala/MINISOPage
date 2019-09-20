@@ -1,8 +1,8 @@
 /*
 * @Author: hp
 * @Date:   2019-08-26 14:57:08
-* @Last Modified by:   hp
-* @Last Modified time: 2019-09-16 08:49:27
+* @Last Modified by:   wqh
+* @Last Modified time: 2019-09-19 22:51:41
 */
 *{
 	margin: 0px;
@@ -67,6 +67,17 @@ a:hover{
 		position: absolute;
 		top: 5%;
 		right: 5%;
+	}
+	.closego{
+		animation: closecircle 1s linear 1;
+	}
+	@keyframes closecircle{
+		from {
+			transform: rotate(0deg)
+		}
+		to {
+			transform: rotate(180deg)
+		}
 	}
 	.search_block{
 		width: 55%;
@@ -312,6 +323,20 @@ a:hover{
 	.brand_box2 img{
 		width: 100%;
 		height: 100%;
+	}
+	.part-txt{
+		animation: part-go 1s linear 1;
+	}
+	@keyframes part-go{
+		0%{
+			transform: translate(0px,0px)
+		}
+		50%{
+			transform: translate(-20px,-20px)
+		}
+		100%{
+			transform: translate(0px,0px)
+		}
 	}
 
 
@@ -653,6 +678,17 @@ a:hover{
 		position: absolute;
 		top: 5%;
 		right: 5%;
+	}
+	.closego{
+		animation: closecircle 1s linear 1;
+	}
+	@keyframes closecircle{
+		from {
+			transform: rotate(0deg)
+		}
+		to {
+			transform: rotate(180deg)
+		}
 	}
 	.search_block{
 		width: 55%;
@@ -1218,6 +1254,17 @@ a:hover{
 		top: 5%;
 		right: 5%;
 	}
+	.closego{
+		animation: closecircle 1s linear 1;
+	}
+	@keyframes closecircle{
+		from {
+			transform: rotate(0deg)
+		}
+		to {
+			transform: rotate(180deg)
+		}
+	}
 	.search_block{
 		width: 55%;
 		height: 50px;
@@ -1588,7 +1635,7 @@ a:hover{
 	.brand_box1>.text_box{
 		width: 70%;
 		height: 70%;
-		margin: 50% auto 0px;
+		margin: 6% auto 0px;
 	}
 	.brand_box1>.text_box a{
 		display: block;
